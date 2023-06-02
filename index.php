@@ -101,7 +101,7 @@ if (!isset($_SESSION['access_token'])) {
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
 </head>
 <body>
-    <div align="center" class="container">
+    <div align="center">
         <br />
         <h2 align="center">PHP Login using Google Account and store data in mySql(xamp)</h2>
         <br />
