@@ -101,11 +101,11 @@ if (!isset($_SESSION['access_token'])) {
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
 </head>
 <body>
-    <div class="container">
+    <div align="center" class="container">
         <br />
         <h2 align="center">PHP Login using Google Account and store data in mySql(xamp)</h2>
         <br />
-        <div class="panel panel-default">
+        <div align="center" class="panel panel-default">
             <?php if ($login_button == ''): ?>
                 <!-- If the user is logged in, show their information -->
                 <div class="panel-heading">Welcome User</div>
