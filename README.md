@@ -7,6 +7,7 @@ https://getcomposer.org/Composer-Setup.exe
 
 https://console.cloud.google.com/apis/dashboard
 
+tutor: https://youtu.be/QND1z0KyiWU
 
 Create Google API project and get OAuth credentials.
 click here Google Developers Console
