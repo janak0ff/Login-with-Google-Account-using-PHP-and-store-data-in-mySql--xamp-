@@ -9,13 +9,13 @@ require_once 'vendor/autoload.php';
 $google_client = new Google_Client();
 
 // Set the OAuth 2.0 Client ID
-$google_client->setClientId('326092266971-p6r4p6are3qoeod5rkmp4d7liu5l2nan.apps.googleusercontent.com');
+$google_client->setClientId('326092266971-qk7uaatqc63sbb0ik8olm6kgila4di35.apps.googleusercontent.com');
 
 // Set the OAuth 2.0 Client Secret key
-$google_client->setClientSecret('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');
+$google_client->setClientSecret('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');
 
 // Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('http://localhost/google-login-php/index.php');
+$google_client->setRedirectUri('http://localhost/Login-with-Google-Account-using-PHP-and-xamp/index.php');
 
 // Set the scopes to get the email and profile
 $google_client->addScope('email profile');
