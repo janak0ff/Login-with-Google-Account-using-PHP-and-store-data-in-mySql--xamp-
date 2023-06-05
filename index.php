@@ -9,10 +9,10 @@ require_once 'vendor/autoload.php';
 $google_client = new Google_Client();
 
 // Set the OAuth 2.0 Client ID
-$google_client->setClientId('326092266971-qk7uaatqc63sbb0ik8olm6kgila4di35.apps.googleusercontent.com');
+$google_client->setClientId('326092266as971-qk7uaatqc63sbjkjsnjkdfnknjb0ik8olm6kgila4disdfs35.apps.googleusercontent.com');
 
 // Set the OAuth 2.0 Client Secret key
-$google_client->setClientSecret('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');
+$google_client->setClientSecret('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mGofdsnXbK4f6Vt7');
 
 // Set the OAuth 2.0 Redirect URI
 $google_client->setRedirectUri('http://localhost/Login-with-Google-Account-using-PHP-and-xamp/index.php');
@@ -47,7 +47,7 @@ if (isset($_GET["code"])) {
         $photo = filter_var($data['picture'], FILTER_SANITIZE_URL);
 
         // Connect to the database
-        $mysqli = new mysqli("localhost", "root", "", "my_db");
+        $mysqli = new mysqli("localhost", "root", "", "loginwithG");
 
         // Check connection
         if ($mysqli->connect_error) {

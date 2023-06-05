@@ -1,18 +1,14 @@
 <?php
+
 //logout.php
 
-session_start(); // start the session
+include('index.php');
 
-include 'config.php';
+//Reset OAuth access token
+$google_client->revokeToken();
 
-if (isset($_SESSION['access_token'])) {
-    // Reset OAuth access token
-    $google_client->revokeToken();
-}
-
-// Destroy entire session data.
+//Destroy entire session data.
 session_destroy();
 
-// Redirect the user back to the login page
+//redirect page to index.php
 header('location:index.php');
-?>
